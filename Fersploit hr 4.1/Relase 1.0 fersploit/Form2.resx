@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>-- Gui created by ferripro321
+local Gui = Instance.new("ScreenGui")
+local openframe = Instance.new("Frame")
+local Decoraciondelopen = Instance.new("Frame")
+local openbutton = Instance.new("TextButton")
+local Titulo = Instance.new("TextLabel")
+local Closebutton = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local infinitenitro = Instance.new("TextButton")
+local Superspeed = Instance.new("TextButton")
+local Normalspeed = Instance.new("TextButton")
+local enablenoclip = Instance.new("TextButton")
+local disablenoclip = Instance.new("TextButton")
+local infinitijumps = Instance.new("TextButton")
+local Nodoors = Instance.new("TextButton")
+local platforms = Instance.new("TextButton")
+local Getpistol = Instance.new("TextButton")
+local InfDonuts = Instance.new("TextButton")
+local spawnglider = Instance.new("TextButton")
+--Properties:
+Gui.Name = "Gui"
+Gui.Parent = game.CoreGui
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+openframe.Name = "open frame"
+openframe.Parent = Gui
+openframe.Active = true
+openframe.BackgroundColor3 = Color3.new(0, 0, 0)
+openframe.Position = UDim2.new(0.729730487, 0, 0, 0)
+openframe.Size = UDim2.new(0, 197, 0, 24)
+openframe.Draggable = true
+
+Decoraciondelopen.Name = "Decoracion del open"
+Decoraciondelopen.Parent = openframe
+Decoraciondelopen.Active = true
+Decoraciondelopen.BackgroundColor3 = Color3.new(1, 0, 0)
+Decoraciondelopen.Size = UDim2.new(0, 16, 0, 24)
+
+openbutton.Name = "open button"
+openbutton.Parent = openframe
+openbutton.BackgroundColor3 = Color3.new(1, 1, 1)
+openbutton.BackgroundTransparency = 1
+openbutton.BorderColor3 = Color3.new(0, 0, 0)
+openbutton.Position = UDim2.new(0.84375, 0, 0, 0)
+openbutton.Size = UDim2.new(0, 25, 0, 24)
+openbutton.Font = Enum.Font.SourceSans
+openbutton.Text = "+"
+openbutton.TextColor3 = Color3.new(0, 1, 0)
+openbutton.TextSize = 14
+openbutton.MouseButton1Down:connect(function()
+Main.Visible = true
+Closebutton.Visible = true
+openbutton.Visible = false
+end)
+
+
+Titulo.Name = "Titulo"
+Titulo.Parent = openframe
+Titulo.Active = true
+Titulo.BackgroundColor3 = Color3.new(1, 1, 1)
+Titulo.BackgroundTransparency = 1
+Titulo.Position = UDim2.new(0.264435261, 0, -0.208333179, 0)
+Titulo.Size = UDim2.new(0, 89, 0, 32)
+Titulo.Font = Enum.Font.SourceSans
+Titulo.Text = "Jailbreak gui by ferripro321"
+Titulo.TextColor3 = Color3.new(1, 0, 0)
+Titulo.TextSize = 14
+
+Closebutton.Name = "Close button"
+Closebutton.Parent = openframe
+Closebutton.BackgroundColor3 = Color3.new(1, 1, 1)
+Closebutton.BackgroundTransparency = 1
+Closebutton.BorderColor3 = Color3.new(0, 0, 0)
+Closebutton.Position = UDim2.new(0.837500036, 0, 0, 0)
+Closebutton.Size = UDim2.new(0, 25, 0, 24)
+Closebutton.Font = Enum.Font.SourceSans
+Closebutton.Text = "-"
+Closebutton.TextColor3 = Color3.new(0, 1, 0)
+Closebutton.TextSize = 14
+Closebutton.MouseButton1Down:connect(function()
+Main.Visible = false
+openbutton.Visible = true
+Closebutton.Visible = false
+end)
+
+Main.Name = "Main"
+Main.Parent = openframe
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0, 0, 0)
+Main.Position = UDim2.new(0, 0, 1, 0)
+Main.Size = UDim2.new(0, 197, 0, 478)
+Main.Visible = false
+
+infinitenitro.Name = "infinite nitro"
+infinitenitro.Parent = Main
+infinitenitro.BackgroundColor3 = Color3.new(1, 1, 1)
+infinitenitro.BackgroundTransparency = 1
+infinitenitro.BorderColor3 = Color3.new(1, 0, 0)
+infinitenitro.Position = UDim2.new(-0.0101522841, 0, 0.0277383178, 0)
+infinitenitro.Size = UDim2.new(0, 197, 0, 36)
+infinitenitro.Font = Enum.Font.SourceSans
+infinitenitro.Text = "Infinite nitro"
+infinitenitro.TextColor3 = Color3.new(0, 1, 0)
+infinitenitro.TextSize = 14
+infinitenitro.MouseButton1Down:connect(function()
+local player = game:GetService("Players").LocalPlayer
+local playergui = player:WaitForChild("PlayerGui")
+local nitro = playergui.MainGui.Nitro
+local pguin = playergui.ProductGui.Nitro
+local pgui = playergui.ProductGui
+
+nitro.Name = "big_oofs"
+pguin:Destroy()
+local new = Instance.new("Model", pgui)
+new.Name = "Nitro"
+end)
+
+Superspeed.Name = "Super speed"
+Superspeed.Parent = Main
+Superspeed.BackgroundColor3 = Color3.new(1, 1, 1)
+Superspeed.BackgroundTransparency = 1
+Superspeed.BorderColor3 = Color3.new(1, 0, 0)
+Superspeed.Position = UDim2.new(0.00507614203, 0, 0.115932189, 0)
+Superspeed.Size = UDim2.new(0, 197, 0, 36)
+Superspeed.Font = Enum.Font.SourceSans
+Superspeed.Text = "Super speed"
+Superspeed.TextColor3 = Color3.new(0, 1, 0)
+Superspeed.TextSize = 14
+Superspeed.MouseButton1Down:connect(function()
+_G.HackedWalkSpeed = 90
+
+local Plrs = game:GetService("Players")
+
+local MyPlr = Plrs.LocalPlayer
+local MyChar = MyPlr.Character
+
+if MyChar then
+local Hum = MyChar.Humanoid
+Hum.Changed:connect(function()
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end
+
+
+MyPlr.CharacterAdded:connect(function(Char)
+MyChar = Char
+repeat wait() until Char:FindFirstChild("Humanoid")
+local Hum = Char.Humanoid
+Hum.Changed:connect(function()
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+
+end)
+
+Normalspeed.Name = "Normal speed"
+Normalspeed.Parent = Main
+Normalspeed.BackgroundColor3 = Color3.new(1, 1, 1)
+Normalspeed.BackgroundTransparency = 1
+Normalspeed.BorderColor3 = Color3.new(1, 0, 0)
+Normalspeed.Position = UDim2.new(0.00507614203, 0, 0.210951358, 0)
+Normalspeed.Size = UDim2.new(0, 196, 0, 36)
+Normalspeed.Font = Enum.Font.SourceSans
+Normalspeed.Text = "Normal speed"
+Normalspeed.TextColor3 = Color3.new(0, 1, 0)
+Normalspeed.TextSize = 14
+Normalspeed.MouseButton1Down:connect(function()
+_G.HackedWalkSpeed = 30
+
+local Plrs = game:GetService("Players")
+
+local MyPlr = Plrs.LocalPlayer
+local MyChar = MyPlr.Character
+
+if MyChar then
+local Hum = MyChar.Humanoid
+Hum.Changed:connect(function()
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end
+
+
+MyPlr.CharacterAdded:connect(function(Char)
+MyChar = Char
+repeat wait() until Char:FindFirstChild("Humanoid")
+local Hum = Char.Humanoid
+Hum.Changed:connect(function()
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+Hum.WalkSpeed = _G.HackedWalkSpeed
+end)
+end)
+
+enablenoclip.Name = "enable noclip"
+enablenoclip.Parent = Main
+enablenoclip.BackgroundColor3 = Color3.new(1, 1, 1)
+enablenoclip.BackgroundTransparency = 1
+enablenoclip.BorderColor3 = Color3.new(1, 0, 0)
+enablenoclip.Position = UDim2.new(0.00507614203, 0, 0.30343309, 0)
+enablenoclip.Size = UDim2.new(0, 196, 0, 36)
+enablenoclip.Font = Enum.Font.SourceSans
+enablenoclip.Text = "Enable noclip"
+enablenoclip.TextColor3 = Color3.new(0, 1, 0)
+enablenoclip.TextSize = 14
+enablenoclip.MouseButton1Down:connect(function()
+_G.NC = not _G.NC  local pos = game:GetService('Players').LocalPlayer.Character.LowerTorso.Position.Y  if _G.InitNC ~= true then     _G.NCFunc = function(part)         if _G.NC then             if part.Position.Y &gt; pos then                 part.CanCollide = false             end         end     end      _G.InitNC = true end if _G.NC and _G.NCFunc ~= nil then     game:GetService('Players').LocalPlayer.Character.Humanoid.Touched:connect(_G.NCFunc) end
+end)
+
+disablenoclip.Name = "disable noclip"
+disablenoclip.Parent = Main
+disablenoclip.BackgroundColor3 = Color3.new(1, 1, 1)
+disablenoclip.BackgroundTransparency = 1
+disablenoclip.BorderColor3 = Color3.new(1, 0, 0)
+disablenoclip.Position = UDim2.new(0.0101522841, 0, 0.396007538, 0)
+disablenoclip.Size = UDim2.new(0, 196, 0, 36)
+disablenoclip.Font = Enum.Font.SourceSans
+disablenoclip.Text = "Disable noclip"
+disablenoclip.TextColor3 = Color3.new(0, 1, 0)
+disablenoclip.TextSize = 14
+disablenoclip.MouseButton1Down:connect(function()
+_G.NC = not _G.NC  local pos = game:GetService('Players').LocalPlayer.Character.LowerTorso.Position.Y  if _G.InitNC ~= true then     _G.NCFunc = function(part)         if _G.NC then             if part.Position.Y &gt; pos then                 part.CanCollide = false             end         end     end      _G.InitNC = false end if _G.NC and _G.NCFunc ~= nil then     game:GetService('Players').LocalPlayer.Character.Humanoid.Touched:connect(_G.NCFunc) end
+end)
+
+infinitijumps.Name = "infiniti jumps"
+infinitijumps.Parent = Main
+infinitijumps.BackgroundColor3 = Color3.new(1, 1, 1)
+infinitijumps.BackgroundTransparency = 1
+infinitijumps.BorderColor3 = Color3.new(1, 0, 0)
+infinitijumps.Position = UDim2.new(0.00507614203, 0, 0.484811485, 0)
+infinitijumps.Size = UDim2.new(0, 196, 0, 36)
+infinitijumps.Font = Enum.Font.SourceSans
+infinitijumps.Text = "Infiniti jumps"
+infinitijumps.TextColor3 = Color3.new(0, 1, 0)
+infinitijumps.TextSize = 14
+infinitijumps.MouseButton1Down:connect(function()
+local Player = game:GetService'Players'.LocalPlayer;
+local UIS = game:GetService'UserInputService';
+
+_G.JumpHeight = 50;
+
+function Action(Object, Function) if Object ~= nil then Function(Object); end end
+
+UIS.InputBegan:connect(function(UserInput)
+    if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+        Action(Player.Character.Humanoid, function(self)
+            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                Action(self.Parent.HumanoidRootPart, function(self)
+                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+                end)
+            end
+        end)
+    end
+end)
+end)
+
+Nodoors.Name = "No doors"
+Nodoors.Parent = Main
+Nodoors.BackgroundColor3 = Color3.new(1, 1, 1)
+Nodoors.BackgroundTransparency = 1
+Nodoors.BorderColor3 = Color3.new(1, 0, 0)
+Nodoors.Position = UDim2.new(0, 0, 0.558764279, 0)
+Nodoors.Size = UDim2.new(0, 196, 0, 36)
+Nodoors.Font = Enum.Font.SourceSans
+Nodoors.Text = "No doors"
+Nodoors.TextColor3 = Color3.new(0, 1, 0)
+Nodoors.TextSize = 14
+Nodoors.MouseButton1Down:connect(function()
+workspace.Doors:Destroy()
+end)
+
+platforms.Name = "platforms"
+platforms.Parent = Main
+platforms.BackgroundColor3 = Color3.new(1, 1, 1)
+platforms.BackgroundTransparency = 1
+platforms.BorderColor3 = Color3.new(1, 0, 0)
+platforms.Position = UDim2.new(0.0101522841, 0, 0.632717013, 0)
+platforms.Size = UDim2.new(0, 196, 0, 36)
+platforms.Font = Enum.Font.SourceSans
+platforms.Text = "Platforms (press m) "
+platforms.TextColor3 = Color3.new(0, 1, 0)
+platforms.TextSize = 14
+platforms.MouseButton1Down:connect(function()
+local player = game:GetService('Players').LocalPlayer local mouse = player:GetMouse() mouse.KeyDown:connect(function(key) if key:lower() == 'm' or key:upper() == 'm' then for i = 1,6 do wait(0.085) x = Instance.new('Part',game:GetService('Workspace')) x.Size = Vector3.new(10,0.2,10) x.TopSurface = 'Smooth' x.Anchored = true x.BrickColor = BrickColor.random()  x.CFrame = CFrame.new(player.Character.UpperTorso.Position) + Vector3.new(0,-3,0) game.Debris:AddItem(x, 3) end end end)
+end)
+
+Getpistol.Name = "Get pistol"
+Getpistol.Parent = Main
+Getpistol.BackgroundColor3 = Color3.new(1, 1, 1)
+Getpistol.BackgroundTransparency = 1
+Getpistol.BorderColor3 = Color3.new(1, 0, 0)
+Getpistol.Position = UDim2.new(0.00507614203, 0, 0.706232071, 0)
+Getpistol.Size = UDim2.new(0, 196, 0, 36)
+Getpistol.Font = Enum.Font.SourceSans
+Getpistol.Text = "Get pistol (press the block)"
+Getpistol.TextColor3 = Color3.new(0, 1, 0)
+Getpistol.TextSize = 14
+Getpistol.MouseButton1Down:connect(function()
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Station' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'Pistol' then v.CFrame = CFrame.new(hit) end end end end end
+end)
+
+InfDonuts.Name = "Inf Donuts"
+InfDonuts.Parent = Main
+InfDonuts.BackgroundColor3 = Color3.new(1, 1, 1)
+InfDonuts.BackgroundTransparency = 1
+InfDonuts.BorderColor3 = Color3.new(1, 0, 0)
+InfDonuts.Position = UDim2.new(0.0101522841, 0, 0.781545877, 0)
+InfDonuts.Size = UDim2.new(0, 196, 0, 36)
+InfDonuts.Font = Enum.Font.SourceSans
+InfDonuts.Text = "Inf Donuts"
+InfDonuts.TextColor3 = Color3.new(0, 1, 0)
+InfDonuts.TextSize = 14
+InfDonuts.MouseButton1Down:connect(function()
+while wait(2) do game:GetService('Workspace').TouchTrigger.Donut.Position = game:GetService('Players').LocalPlayer.Character.Head.Position end
+end)
+
+spawnglider.Name = "spawn glider"
+spawnglider.Parent = Main
+spawnglider.BackgroundColor3 = Color3.new(1, 1, 1)
+spawnglider.BackgroundTransparency = 1
+spawnglider.BorderColor3 = Color3.new(1, 0, 0)
+spawnglider.Position = UDim2.new(0.0101522841, 0, 0.856859684, 0)
+spawnglider.Size = UDim2.new(0, 196, 0, 36)
+spawnglider.Font = Enum.Font.SourceSans
+spawnglider.Text = "spawn glider (press the block)"
+spawnglider.TextColor3 = Color3.new(0, 1, 0)
+spawnglider.TextSize = 14
+spawnglider.MouseButton1Down:connect(function()
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Glider' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'Glider' then v.CFrame = CFrame.new(hit) end end end end end
+end)
+</value>
+  </data>
+</root>
